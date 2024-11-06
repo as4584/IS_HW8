@@ -40,14 +40,12 @@ jobs:
       - name: Log in to DockerHub
         uses: docker/login-action@v3
         with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          username: ${{ secrets.DOCKERHUB_USERNAME }} # Do not fill in here; set it in your GitHub repo settings
+          password: ${{ secrets.DOCKERHUB_TOKEN }}    # Do not fill in here; set it in your GitHub repo settings
           
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: woffee/devops_demo:latest
-
-          # Add other relevant build parameters here
+          tags: woffee/devops_demo:latest  # Change this to your DockerHub username and image name
 
