@@ -10,7 +10,7 @@ For this assignment I want you to watch the following two videos and create your
 
 ## Instructions
 
-1. Log in to your Docker and [DockerHub accounts](https://hub.docker.com/)
+1. Log in to your Docker and [DockerHub account](https://hub.docker.com/).
 
 2. Follow my code to create a new repo on Github.
 
@@ -30,7 +30,7 @@ For this assignment I want you to watch the following two videos and create your
 
 6. Push your code to Github.
 
-7. After the Gihub actions workflow is successful, take a screenshot of your DockerHub account.
+7. After the Gihub actions workflow is successful, take a screenshot of your DockerHub account. Then add the screenshot to `readme.md` file.
 
 ## Requirement
 
